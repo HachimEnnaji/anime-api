@@ -4,6 +4,7 @@ import NavComponent from "./components/NavComponent";
 import { Col, Container, Row } from "react-bootstrap";
 import Main from "./components/Main";
 import SideBar from "./components/SideBar";
+import { useEffect, useState } from "react";
 function App() {
   return (
     <div className="App">
